@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/portfolio/static/admin/css/style.css">
+    <title>Document</title>
+
+</head>
+<body>
+  <section class="container">
+    <div class="portfolio">
+        <div class="logo">
+            <a href="#">
+                <img src="/portfolio/static/img/dark.png" alt="">
+            </a>
+        </div>
+        <div class="info">
+            <ul class="info-ul">
+              <li> <a href="#">Portfolio</a></li>
+              <li> <a href="#">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Page wrapper  -->
+    {% block content %} {% endblock %}
+    <!-- End wrapper  -->
+  </section>
+    
+</body>
+</html>

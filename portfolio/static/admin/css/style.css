@@ -1,0 +1,77 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2rem;
+    margin: 0px;
+    font-size: 1rem;
+    word-wrap: break-word;
+    color: #767676;
+}
+ 
+ 
+ /* Barside style */
+    
+ .container {
+    margin-left: 25%;
+    height: 100vh;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    overflow-y: hidden;
+    width: 14rem;
+    height: 100vh;
+    padding: 0 4.38rem 0 4.38rem;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+.info {
+    width: 13rem;
+    position: relative;
+    right: 0.7rem;
+}
+
+.info a {
+    padding: 0.37rem 0.025rem;
+}
+
+.info-ul {
+    padding: 2.5rem 0 3.12rem 0;
+    width: 100%;
+    float: left;
+    margin: 0rem;
+}
+
+.info-ul a {
+    text-decoration: none;
+    color: #767676;
+    letter-spacing: 0.125rem;
+    text-align: left;
+    font-size: 0.814rem;
+    font-weight: 600;
+    padding: 1.25rem;
+}
+
+.info-ul a:hover {
+    color: #000;
+    font-size: 1rem;
+    transition: all 0.25s;
+    letter-spacing: 0.05rem;
+}
+
+ul li {
+    list-style: none;
+    font: 1rem;
+}
+
+ul>:first-child {
+    color: #000;
+}
+
+
+
+/*  */
