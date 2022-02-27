@@ -6,10 +6,11 @@ app=Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////test.db'
 db = SQLAlchemy(app)
 
-@app.route("/")
-def admin():
-    return render_template("index.html")
+# App.routes
+from app.routes import *
 
+# Admin.routes
+from admin.routes import *
 
 if __name__=="__main__":
     # db.create_all()

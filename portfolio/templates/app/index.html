@@ -5,38 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/portfolio/static/css/all.css">
+    <link rel="stylesheet" href="/static/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google font / web -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3113ae62d0.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
     <section class="container">
+        <div class="right-part">
+            <div class="topbar">
+                <div class="top-inner">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="/static/img/dark.png" alt="">
+                        </a>
+                    </div>
+                    <div class="trigger">
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <div class="menu-list">
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/about">About</a>
+                        </li>
+                        <li>
+                            <a href="/portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="portfolio">
-            <div class="logo">
-                <a href="#">
-                    <img src="/portfolio/static/img/dark.png" alt="">
-                </a>
+            <div class="left-part">
+                <div class="logo">
+                    <a href="#">
+                        <img src="/static/img/dark.png" alt="">
+                    </a>
+                </div>
+                <div class="info">
+                    <ul class="info-ul">
+                        <li> <a href="/">Home</a></li>
+                        <li> <a href="/about">About</a> </li>
+                        <li> <a href="/portfolio">Portfolio</a></li>
+                        <li> <a href="/blog">Blog</a></li>
+                        <li> <a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <footer>
+                    <div><span>© 2021 Tokyo</span></div>
+                    <div class="end"><span>Created by <a href="#">Marketify</a></span></div>
+                </footer>
             </div>
-            <div class="info">
-                <ul class="info-ul">
-                    <li> <a href="/portfolio/templates/app/index.html">Home</a></li>
-                    <li> <a href="/portfolio/templates/app/about.html">About</a> </li>
-                    <li> <a href="/portfolio/templates/app/portfolio.html">Portfolio</a></li>
-                    <li> <a href="/portfolio/templates/app/blog.html">Blog</a></li>
-                    <li> <a href="/portfolio/templates/app/contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <footer>
-                <div><span>© 2021 Tokyo</span></div>
-                <div class="end"><span>Created by <a href="#">Marketify</a></span></div>
-            </footer>
         </div>
         <div class="heading">
             <div class="img"></div>
             <div class="about">
-                <h3>Laman Majidli</h3>
-                <span>Creative Photographer based in New York and happy to travel all over Europe to capture photos.</span>
+                <div class="content">
+                    <h3>Laman Majidli</h3>
+                    <span>Creative Photographer based in New York and happy to travel all over Europe to capture photos.</span>
+                </div>
                 <div class="social-all">
                     <div class="social">
                         <div>
@@ -57,15 +104,15 @@
             </div>
 
         </div>
+        <div class="mausemove">
+            <div class="cursor-circle"></div>
+            <div class="cursor-point"></div>
+        </div>
     </section>
 
 
-    <div class="mousemove">
-        <div class="krug"></div>
-        <div class="tochka"></div>
-    </div>
-
-
+    <!-- Js -->
+    <script src="/static/js/app.js"></script>
 </body>
 
 </html>

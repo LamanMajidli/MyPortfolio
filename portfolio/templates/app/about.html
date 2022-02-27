@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/portfolio/static/css/all.css">
+    <link rel="stylesheet" href="static/css/all.css">
+    <!-- Google font / web -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3113ae62d0.js" crossorigin="anonymous"></script>
     <title>Document</title>
 
@@ -13,33 +15,74 @@
 
 <body>
     <section class="container">
-        <div class="portfolio">
-            <div class="logo">
-                <a href="#">
-                    <img src="/portfolio/static/img/dark.png" alt="">
-                </a>
+        <div class="right-part">
+            <div class="topbar">
+                <div class="top-inner">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="/static/img/dark.png" alt="">
+                        </a>
+                    </div>
+                    <div class="trigger">
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="info">
-                <ul class="info-ul">
-                    <li> <a href="/portfolio/templates/app/index.html">Home</a></li>
-                    <li> <a href="/portfolio/templates/app/about.html">About</a> </li>
-                    <li> <a href="/portfolio/templates/app/portfolio.html">Portfolio</a></li>
-                    <li> <a href="/portfolio/templates/app/blog.html">Blog</a></li>
-                    <li> <a href="/portfolio/templates/app/contact.html">Contact</a></li>
-                </ul>
+            <div class="mobile-menu">
+                <div class="menu-list">
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/about">About</a>
+                        </li>
+                        <li>
+                            <a href="/portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <footer>
-                <div><span>© 2021 Tokyo</span></div>
-                <div class="end"><span>Created by <a href="#">Marketify</a></span></div>
-            </footer>
         </div>
-        <div class="heading">
+        <div class="portfolio">
+            <div class="left-part">
+                <div class="logo">
+                    <a href="#">
+                        <img src="/static/img/dark.png" alt="">
+                    </a>
+                </div>
+                <div class="info">
+                    <ul class="info-ul">
+                        <li> <a href="/">Home</a></li>
+                        <li> <a href="/about">About</a> </li>
+                        <li> <a href="/portfolio">Portfolio</a></li>
+                        <li> <a href="/blog">Blog</a></li>
+                        <li> <a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <footer>
+                    <div><span>© 2021 Tokyo</span></div>
+                    <div class="end"><span>Created by <a href="#">Marketify</a></span></div>
+                </footer>
+            </div>
+        </div>
+        <div class="tokyo_tm_about">
             <div class="about-container">
                 <div class="header-img"></div>
                 <div class="about-content">
                     <div class="info-box">
                         <div class="name">
-                            <h3 >Adriano Smith & Photographer</h3>
+                            <h3>Adriano Smith & Photographer</h3>
                         </div>
                         <div class="text">
                             <p>Hello, I am a creative photographer based in New York and happy to travel all over Europe to capture your big day in candid and authentic photos. I will create a lasting memory of the people.</p>
@@ -47,18 +90,24 @@
                         <button class="about-button">Learn more</button>
                     </div>
                     <div class="data-box">
-                        <div>Birthday:<span style="margin-left: 13px;">17.08.1997</span></div>
-                        <div>Age:<span style="margin-left: 45px;">24</span></div>
-                        <div>Address:<span style="margin-left: 15px;">Ave 11, New York, USA</span></div>
-                        <div>Email:<span class="span-hover" style="margin-left: 35px;">mail@gmail.com</span></div>
-                        <div>Phone:<span class="span-hover" style="margin-left: 30px;">+77 022 177 05 05</span></div>
-                        <div>Study:<span style="margin-left: 35px;">Univercity of Texas</span></div>
-                        <div>Freelance:<span style="margin-left: 10px;">Available</span></div>
+                        <p>Birthday:<span>17.08.1997</span></p>
+                        <p>Age:<span>24</span></p>
+                        <p>Address:<span>Ave 11, New York, USA</span></p>
+                        <p>Email:<span>mail@gmail.com</span></p>
+                        <p>Phone:<span>+77 022 177 05 05</span></p>
+                        <p>Study:<span>Univercity of Texas</span></p>
+                        <p>Freelance:<span>Available</span></p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="mausemove">
+            <div class="cursor-circle"></div>
+            <div class="cursor-point"></div>
+        </div>
     </section>
+    <!-- Js -->
+    <script src="/static/js/app.js"></script>
 </body>
 
 </html>

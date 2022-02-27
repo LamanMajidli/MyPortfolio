@@ -5,33 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/portfolio/static/css/all.css">
+    <link rel="stylesheet" href="/static/css/all.css">
     <title>Document</title>
 </head>
 
 <body>
     <section class="container">
-        <div class="portfolio">
-            <div class="logo">
-                <a href="#">
-                    <img src="/portfolio/static/img/dark.png" alt="">
-                </a>
+        <div class="right-part">
+            <div class="topbar">
+                <div class="top-inner">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="/static/img/dark.png" alt="">
+                        </a>
+                    </div>
+                    <div class="trigger">
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="info">
-                <ul class="info-ul">
-                    <li> <a href="/portfolio/templates/app/index.html">Home</a></li>
-                    <li> <a href="/portfolio/templates/app/about.html">About</a> </li>
-                    <li> <a href="/portfolio/templates/app/portfolio.html">Portfolio</a></li>
-                    <li> <a href="/portfolio/templates/app/blog.html">Blog</a></li>
-                    <li> <a href="/portfolio/templates/app/contact.html">Contact</a></li>
-                </ul>
+            <div class="mobile-menu">
+                <div class="menu-list">
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/about">About</a>
+                        </li>
+                        <li>
+                            <a href="/portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <footer>
-                <div><span>© 2021 Tokyo</span></div>
-                <div class="end"><span>Created by <a href="#">Marketify</a></span></div>
-            </footer>
         </div>
-        <div class="heading">
+        <div class="portfolio">
+            <div class="left-part">
+                <div class="logo">
+                    <a href="#">
+                        <img src="/static/img/dark.png" alt="">
+                    </a>
+                </div>
+                <div class="info">
+                    <ul class="info-ul">
+                        <li> <a href="/">Home</a></li>
+                        <li> <a href="/about">About</a> </li>
+                        <li> <a href="/portfolio">Portfolio</a></li>
+                        <li> <a href="/blog">Blog</a></li>
+                        <li> <a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <footer>
+                    <div><span>© 2021 Tokyo</span></div>
+                    <div class="end"><span>Created by <a href="#">Marketify</a></span></div>
+                </footer>
+            </div>
+        </div>
+        <div class="heading overflow-y">
             <form class="contactform">
                 <div class="contact-info">
                     <input type="name" placeholder="Name">
